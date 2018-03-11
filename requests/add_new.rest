@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs
+Content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im90dG8iLCJpZCI6IjVhOWE3NGE1MDU3Zjg0M2Q0MGNmNGQ4NSIsImlhdCI6MTUyMDA3MTg3MX0.-NXIgp8ChDLpzI33a7nA341OTt8JKGeHcu8dGv4t1jo
+
+{
+    "title": "Testiblogi5",
+    "author": "Otto",
+    "url": "www.testi.fi",
+    "likes": 3
+}
